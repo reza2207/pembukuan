@@ -1,0 +1,347 @@
+CRITICAL - 2024-03-26 02:09:44 --> ErrorException: Undefined variable $favcolor
+in APPPATH\Controllers\Voucher.php on line 37.
+ 1 APPPATH\Controllers\Voucher.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $favcolor', 'C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->new('CRD')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 02:10:03 --> ErrorException: Undefined variable $favcolor
+in APPPATH\Controllers\Voucher.php on line 37.
+ 1 APPPATH\Controllers\Voucher.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $favcolor', 'C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->new('CRD')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 02:10:08 --> ErrorException: Undefined variable $favcolor
+in APPPATH\Controllers\Voucher.php on line 37.
+ 1 APPPATH\Controllers\Voucher.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $favcolor', 'C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->new('CRD')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 03:27:51 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\Voucher.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 03:27:53 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\Voucher.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 03:28:00 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\Voucher.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 03:44:39 --> Error: Call to a member function database() on null
+in APPPATH\Models\VoucherModel.php on line 19.
+ 1 APPPATH\Controllers\Voucher.php(12): App\Models\VoucherModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Voucher->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 04:36:39 --> Error: Call to a member function database() on null
+in APPPATH\Models\VoucherModel.php on line 19.
+ 1 APPPATH\Controllers\Voucher.php(12): App\Models\VoucherModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Voucher->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 04:36:56 --> Error: Call to a member function database() on null
+in APPPATH\Models\VoucherModel.php on line 19.
+ 1 APPPATH\Controllers\Voucher.php(12): App\Models\VoucherModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Voucher->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 04:37:13 --> Error: Call to a member function database() on null
+in APPPATH\Models\VoucherModel.php on line 19.
+ 1 APPPATH\Controllers\Voucher.php(12): App\Models\VoucherModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Voucher->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 04:37:24 --> Error: Call to a member function database() on null
+in APPPATH\Models\VoucherModel.php on line 19.
+ 1 APPPATH\Controllers\Voucher.php(12): App\Models\VoucherModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Voucher->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 04:37:33 --> Error: Call to a member function database() on null
+in APPPATH\Models\VoucherModel.php on line 19.
+ 1 APPPATH\Controllers\Voucher.php(12): App\Models\VoucherModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Voucher->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 04:38:05 --> Error: Call to a member function database() on null
+in APPPATH\Models\VoucherModel.php on line 19.
+ 1 APPPATH\Controllers\Voucher.php(12): App\Models\VoucherModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Voucher->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 06:27:56 --> ErrorException: Undefined variable $Voucher_model
+in APPPATH\Controllers\Voucher.php on line 80.
+ 1 APPPATH\Controllers\Voucher.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Voucher_model', 'C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 06:29:49 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\VoucherModel.php on line 24.
+ 1 APPPATH\Models\VoucherModel.php(65): App\Models\VoucherModel->_get_datatables_query()
+ 2 APPPATH\Controllers\Voucher.php(80): App\Models\VoucherModel->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 06:31:04 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\VoucherModel.php on line 24.
+ 1 APPPATH\Models\VoucherModel.php(65): App\Models\VoucherModel->_get_datatables_query()
+ 2 APPPATH\Controllers\Voucher.php(80): App\Models\VoucherModel->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 06:31:35 --> ErrorException: Undefined variable $title
+in APPPATH\Views\templates\header.php on line 4.
+ 1 APPPATH\Views\templates\header.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\bum4-apps\\app\\Views\\templates\\header.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bum4-apps\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Voucher.php(70): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->voucherLookup('get')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 06:31:38 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\VoucherModel.php on line 24.
+ 1 APPPATH\Models\VoucherModel.php(65): App\Models\VoucherModel->_get_datatables_query()
+ 2 APPPATH\Controllers\Voucher.php(80): App\Models\VoucherModel->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 06:39:39 --> Error: Call to a member function database() on null
+in APPPATH\Models\VoucherModel.php on line 19.
+ 1 APPPATH\Controllers\Voucher.php(12): App\Models\VoucherModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Voucher->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 06:40:14 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\VoucherModel.php on line 24.
+ 1 APPPATH\Models\VoucherModel.php(65): App\Models\VoucherModel->_get_datatables_query()
+ 2 APPPATH\Controllers\Voucher.php(80): App\Models\VoucherModel->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 06:40:23 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\VoucherModel.php on line 24.
+ 1 APPPATH\Models\VoucherModel.php(65): App\Models\VoucherModel->_get_datatables_query()
+ 2 APPPATH\Controllers\Voucher.php(80): App\Models\VoucherModel->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 06:40:30 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\VoucherModel.php on line 24.
+ 1 APPPATH\Models\VoucherModel.php(65): App\Models\VoucherModel->_get_datatables_query()
+ 2 APPPATH\Controllers\Voucher.php(80): App\Models\VoucherModel->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 08:51:46 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\VoucherModel.php on line 63.
+ 1 APPPATH\Models\VoucherModel.php(104): App\Models\VoucherModel->_get_datatables_query()
+ 2 APPPATH\Controllers\Voucher.php(80): App\Models\VoucherModel->get_datatables()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 08:52:20 --> ErrorException: Undefined variable $Voucher_model
+in APPPATH\Controllers\Voucher.php on line 80.
+ 1 APPPATH\Controllers\Voucher.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Voucher_model', 'C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 08:53:23 --> ErrorException: Undefined variable $Voucher_model
+in APPPATH\Controllers\Voucher.php on line 81.
+ 1 APPPATH\Controllers\Voucher.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Voucher_model', 'C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Voucher->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:52:22 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Voucher.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:52:24 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Voucher.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:52:25 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Voucher.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:52:40 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Voucher.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:52:41 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Voucher.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:52:42 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Voucher.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:52:42 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Voucher.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:52:42 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Voucher.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:52:42 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Voucher.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:52:46 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Voucher.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:53:13 --> ParseError: Unclosed '{' on line 9
+in APPPATH\Controllers\Voucher.php on line 152.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:53:14 --> ParseError: Unclosed '{' on line 9
+in APPPATH\Controllers\Voucher.php on line 152.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')
+CRITICAL - 2024-03-26 09:53:14 --> ParseError: Unclosed '{' on line 9
+in APPPATH\Controllers\Voucher.php on line 152.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bum4-apps\\app\\Controllers\\Voucher.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Voucher')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Voucher')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Voucher', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\bum4-apps\\public\\index.php')

@@ -1,0 +1,14 @@
+/* body{
+	background: #fff;
+} */
+
+/* #sidenav{
+	background: #111;
+	min-width: 250px;
+	max-width: 250px;
+} */
+
+.content{
+	min-height: 100vh;
+	width: 100%;
+}
